@@ -1,0 +1,98 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_ROADVEHS, SELF, sw_portertII_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_PorterII_default);   // 포터II
+    2: return string(STR_REFIT_LIVERY_PorterII_post);   // 포터II 우체국
+    return string(STR_REFIT_LIVERY_PorterII_default);
+}
+
+switch(FEAT_ROADVEHS, SELF, sw_portertII_MAIL, cargo_subtype) {
+    1: sg_PorterII_mail;
+    2: set_PorterII_Post;   // 포터II 우체국
+    sg_PorterII_mail;
+}
+
+switch(FEAT_ROADVEHS, SELF, sw_portertII_GOOD, cargo_subtype) {
+    1: sg_PorterII_mail;
+    2: set_PorterII_Post;   // 포터II 우체국
+    sg_PorterII_mail;
+}
+
+switch(FEAT_ROADVEHS, SELF, sw_portertII_PAPR, cargo_subtype) {
+    1: sg_PorterII_Box;
+    sg_PorterII_Box;
+}
+
+switch(FEAT_ROADVEHS, SELF, sw_portertII_FOOD, cargo_subtype) {
+    1: sg_PorterII_Box;
+    sg_PorterII_Box;
+}
+
+switch(FEAT_ROADVEHS, SELF, sw_portertII_FRUT, cargo_subtype) {
+    sg_PorterII_Box;
+}
+
+switch(FEAT_ROADVEHS, SELF, sw_portertII_SUGR, cargo_subtype) {
+    sg_PorterII_Box;
+}
+
+switch(FEAT_ROADVEHS, SELF, sw_portertII_LVST, cargo_subtype) {
+    sg_PorterII_Box;
+}
+
+switch(FEAT_ROADVEHS, SELF, sw_portertII_WOOD, cargo_subtype) {
+    sg_PorterII_Box;
+}
+
+switch(FEAT_ROADVEHS, SELF, sw_portertII_OIL_, cargo_subtype) {
+    sg_PorterII_Oil;
+}
+
+switch(FEAT_ROADVEHS, SELF, sw_portertII_WATR, cargo_subtype) {
+    sg_PorterII_Oil;
+}
+
+switch(FEAT_ROADVEHS, SELF, sw_portertII_COAL, cargo_subtype) {
+    sg_PorterII_Stone;
+}
+
+switch(FEAT_ROADVEHS, SELF, sw_portertII_GRAI, cargo_subtype) {
+    sg_PorterII_Stone;
+}
+
+switch(FEAT_ROADVEHS, SELF, sw_portertII_IORE, cargo_subtype) {
+    sg_PorterII_Stone;
+}
+
+switch(FEAT_ROADVEHS, SELF, sw_portertII_STEL, cargo_subtype) {
+    sg_PorterII_Stone;
+}
+
+switch(FEAT_ROADVEHS, SELF, sw_portertII_VALU, cargo_subtype) {
+    sg_PorterII_Stone;
+}
+
+switch(FEAT_ROADVEHS, SELF, sw_portertII_WHEA, cargo_subtype) {
+    sg_PorterII_Stone;
+}
+
+switch(FEAT_ROADVEHS, SELF, sw_portertII_GOLD, cargo_subtype) {
+    sg_PorterII_Stone;
+}
+
+switch(FEAT_ROADVEHS, SELF, sw_portertII_RUBR, cargo_subtype) {
+    sg_PorterII_Stone;
+}
+
+switch(FEAT_ROADVEHS, SELF, sw_portertII_MAIZ, cargo_subtype) {
+    sg_PorterII_Stone;
+}
+
+switch(FEAT_ROADVEHS, SELF, sw_portertII_CORE, cargo_subtype) {
+    sg_PorterII_Stone;
+}
+
+switch(FEAT_ROADVEHS, SELF, sw_portertII_DIAM, cargo_subtype) {
+    sg_PorterII_Stone;
+}

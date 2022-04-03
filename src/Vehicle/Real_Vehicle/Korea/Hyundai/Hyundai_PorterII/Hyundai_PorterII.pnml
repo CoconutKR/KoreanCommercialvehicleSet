@@ -1,0 +1,78 @@
+/*--------------------------------------------------------------------
+CRH1
+--------------------------------------------------------------------*/
+// Graphics
+#include "Hyundai_PorterII_graphic.pnml"
+
+// Switch
+#include "Hyundai_PorterII_switch.pnml"
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_ROADVEHS, PorterII){
+    property {
+        name:                           string(STR_PorterII_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2004, 1, 1);
+        road_type:                      ROAD;
+        sprite_id:                      SPRITE_ID_NEW_ROADVEH;
+                
+        //spec
+        speed:                          110km/h;
+        power:                          58 kW;
+        weight:                         1 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 1;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [COAL, MAIL, OIL_, LVST, GOOD, GRAI, WOOD, IORE, STEL, VALU, PAPR, WHEA, FOOD, GOLD, RUBR, FRUT, MAIZ, CORE, WATR, DIAM, SUGR];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ROADVEH;
+        
+        //Flags
+        misc_flags:                     bitmask(ROADVEH_FLAG_AUTOREFIT);
+        }
+        
+    graphics {
+        MAIL:                           sw_portertII_MAIL;
+        GOOD:                           sw_portertII_GOOD;
+        PAPR:                           sw_portertII_PAPR;
+        FOOD:                           sw_portertII_FOOD;
+        FRUT:                           sw_portertII_FRUT;
+        SUGR:                           sw_portertII_SUGR;
+        LVST:                           sw_portertII_LVST;
+        WOOD:                           sw_portertII_WOOD;
+        OIL_:                           sw_portertII_OIL_;
+        WATR:                           sw_portertII_WATR;
+        COAL:                           sw_portertII_COAL;
+        GRAI:                           sw_portertII_GRAI;
+        IORE:                           sw_portertII_IORE;
+        STEL:                           sw_portertII_STEL;
+        VALU:                           sw_portertII_VALU;
+        WHEA:                           sw_portertII_WHEA;
+        GOLD:                           sw_portertII_GOLD;
+        RUBR:                           sw_portertII_RUBR;
+        MAIZ:                           sw_portertII_MAIZ;
+        CORE:                           sw_portertII_CORE;
+        DIAM:                           sw_portertII_DIAM;
+        default:                        set_PorterII;
+        purchase:                       sw_PorterII_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        cargo_subtype_text:             sw_portertII_cargo_subtype_text;
+        }
+}

@@ -1,0 +1,20 @@
+﻿##grflangid 0x00
+
+# GRF name and description
+STR_GRF_NAME                                        :YSR 
+STR_GRF_NAME_WITH_VER                               :YSR {VERSION}
+STR_GRF_DESC                                        :(Updated: {RECENT_UPDATED}{}{}{SILVER} coded By : {}{ORANGE} ME Making {} GBLINER {}{} {SILVER} Sprite By :{}{ORANGE} GBLINER
+
+# Road vehicle's name
+STR_PorterII_NAME                                    :[YSR] Hyundai PorterII
+
+# Parameters
+
+# Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
+
+# Liveries
+STR_REFIT_LIVERY_PorterII_default                  :(PORTER II)
+STR_REFIT_LIVERY_PorterII_post                     :(PORTER II KOREA POST)
+
+# Errors
+STR_ERROR_NO_ATTACH                                 :You can't attach this car here

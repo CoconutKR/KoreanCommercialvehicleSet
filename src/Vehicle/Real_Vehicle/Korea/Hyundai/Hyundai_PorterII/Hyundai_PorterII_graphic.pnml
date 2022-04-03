@@ -1,0 +1,96 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_PorterII_purchase, "src/Vehicle/Real_Vehicle/Korea/Hyundai/Hyundai_PorterII/Hyundai_PorterII.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+1. 현대 포터 기본
+--------------------------------------------------------------------*/
+
+spriteset(set_PorterII, "src/Vehicle/Real_Vehicle/Korea/Hyundai/Hyundai_PorterII/Hyundai_PorterII.png"){
+    vehicle(36, 0)
+}
+
+spriteset(set_PorterII_Box, "src/Vehicle/Real_Vehicle/Korea/Hyundai/Hyundai_PorterII/Hyundai_PorterII.png"){
+    vehicle(36, 17)
+}
+
+spriteset(set_PorterII_Oil, "src/Vehicle/Real_Vehicle/Korea/Hyundai/Hyundai_PorterII/Hyundai_PorterII.png"){
+    vehicle(36, 35)
+}
+
+spriteset(set_PorterII_Stone, "src/Vehicle/Real_Vehicle/Korea/Hyundai/Hyundai_PorterII/Hyundai_PorterII.png"){
+    vehicle(36, 53)
+}
+
+/*--------------------------------------------------------------------
+2. 현대 포터 우체국
+--------------------------------------------------------------------*/
+
+spriteset(set_PorterII_Post, "src/Vehicle/Real_Vehicle/Korea/Hyundai/Hyundai_PorterII/Hyundai_PorterII.png"){
+    vehicle(36, 0)
+}
+
+alternative_sprites(set_PorterII_Post, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\Vehicle\Real_Vehicle\Korea\Hyundai\Hyundai_PorterII\Hyundai_PorterII_post_32bpp.png"){
+    vehicle(36, 0)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_PorterII_purchase, cargo_subtype) {
+    set_PorterII_purchase;
+}
+
+/*--------------------------------------------------------------------
+적재 스위치
+--------------------------------------------------------------------*/
+spritegroup sg_PorterII_mail {
+    loading: [
+        set_PorterII,
+        set_PorterII_Box
+    ];
+    loaded: [
+        set_PorterII,
+        set_PorterII_Box
+    ];
+}
+
+spritegroup sg_PorterII_Box {
+    loading: [
+        set_PorterII,
+        set_PorterII_Box
+    ];
+    loaded: [
+        set_PorterII,
+        set_PorterII_Box
+    ];
+}
+
+spritegroup sg_PorterII_Oil {
+    loading: [
+        set_PorterII_Oil,
+        set_PorterII_Oil
+    ];
+    loaded: [
+        set_PorterII_Oil,
+        set_PorterII_Oil
+    ];
+}
+
+spritegroup sg_PorterII_Stone {
+    loading: [
+        set_PorterII,
+        set_PorterII_Stone
+    ];
+    loaded: [
+        set_PorterII,
+        set_PorterII_Stone
+    ];
+}

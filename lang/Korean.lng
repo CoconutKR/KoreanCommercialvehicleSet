@@ -1,0 +1,20 @@
+﻿##grflangid 0x3A
+
+# GRF name and description
+STR_GRF_NAME                                        :YSR
+STR_GRF_NAME_WITH_VER                               :YSR {VERSION}
+STR_GRF_DESC                                        :(최근 업데이트: {RECENT_UPDATED}{}{}{SILVER} 코딩 : {}{ORANGE}ME Making {} 경부라이너 {}{}{SILVER} 스프라이트 :{}{ORANGE} 경부라이너
+
+# Road vehicle's name
+STR_PorterII_NAME                                    :[YSR] 현대 포터II
+
+# Parameters
+
+# Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
+
+# Liveries
+STR_REFIT_LIVERY_PorterII_default                  :(포터II)
+STR_REFIT_LIVERY_PorterII_post                     :(포터II 우체국)
+
+# Errors
+STR_ERROR_NO_ATTACH                                 :여기에 이 차량을 붙일 수 없습니다
