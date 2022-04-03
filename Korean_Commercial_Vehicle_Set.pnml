@@ -5,7 +5,7 @@
 * 기본정보
 --------------------------------------------------------------------*/
 grf {
-	grfid: "YSR1";
+	grfid: "KCVS";
 	name: string(STR_GRF_NAME_WITH_VER);
 	desc: string(STR_GRF_DESC);
 	version: 1;
