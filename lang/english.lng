@@ -15,6 +15,7 @@ STR_PorterII_NAME                                    :[KCS] Hyundai PorterII
 # Liveries
 STR_REFIT_LIVERY_PorterII_default                  :(PORTER II)
 STR_REFIT_LIVERY_PorterII_post                     :(PORTER II KOREA POST)
+STR_REFIT_LIVERY_PorterII_CJ                       :(PORTER II CJ LOGISTICS)
 
 # Errors
 STR_ERROR_NO_ATTACH                                 :You can't attach this car here
