@@ -1,4 +1,4 @@
-# Korean Commercial vehicle Set 한국상용차세트
+# Korean Commercial vehicle Set 한국 상용차 세트
 **한국상용차세트**는 한국의 상용차 차량(버스, 트럭, 승합차)을 추가해주는 OpenTTD NewGRF입니다.  
 게임 내 온라인 콘텐츠에서 다운로드하거나, [Github release 페이지](https://github.com/GBLINER/KoreanCommercialvehicleSet/releases)에서 다운로드할 수 있습니다.
 ## 차량 목록 및 스펙
