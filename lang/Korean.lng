@@ -3,7 +3,7 @@
 # GRF name and description
 STR_GRF_NAME                                        :한국 상용차 세트
 STR_GRF_NAME_WITH_VER                               :한국 상용차 세트 {VERSION}
-STR_GRF_DESC                                        :(최근 업데이트: {RECENT_UPDATED}{}{}{SILVER} 코딩 : {}{ORANGE}경부라이너 {}{}{SILVER} 스프라이트 :{}{ORANGE} 경부라이너
+STR_GRF_DESC                                        :(최근 업데이트: {RECENT_UPDATED}{}{}{SILVER} 코딩 : {}{ORANGE}경부라이너 {}{}{SILVER} 스프라이트 :{}{ORANGE} 경부라이너 {}포커페이스
 
 # Road vehicle's name
 STR_PorterII_NAME                                    :[KCS] 현대 포터II
