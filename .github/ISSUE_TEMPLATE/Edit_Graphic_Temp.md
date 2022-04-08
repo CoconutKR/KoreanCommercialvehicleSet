@@ -1,6 +1,6 @@
 ---
 name: "[차량변경]"
-about: 기존 자료의 그래픽을 변경할때 사용합니다.
+about: 기존 자료의 그래픽을 변경하거나 도색 추가시 사용합니다.
 title: "[차량변경] 차량이름"
 labels: Edit Graphic
 assignees: ''
