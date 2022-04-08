@@ -16,6 +16,9 @@ STR_PorterII_NAME                                    :[KCS] 현대 포터II
 STR_REFIT_LIVERY_PorterII_default                  :(포터II)
 STR_REFIT_LIVERY_PorterII_post                     :(포터II 우체국)
 STR_REFIT_LIVERY_PorterII_CJ                       :(포터II CJ대한통운)
+STR_REFIT_LIVERY_PorterII_HANJIN                   :(포터II 한진택배)
+STR_REFIT_LIVERY_PorterII_SUNGHWA                  :(포터II 성화기업택배)
+STR_REFIT_LIVERY_PorterII_DHL                      :(포터II DHL)
 
 # Errors
 STR_ERROR_NO_ATTACH                                 :여기에 이 차량을 붙일 수 없습니다

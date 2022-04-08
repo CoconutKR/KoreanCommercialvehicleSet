@@ -54,6 +54,42 @@ alternative_sprites(set_PorterII_CJ, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\Ve
 }
 
 /*--------------------------------------------------------------------
+4. 현대 포터 한진택배
+--------------------------------------------------------------------*/
+
+spriteset(set_PorterII_HANJIN, "src/Vehicle/Real_Vehicle/Korea/Hyundai/Hyundai_PorterII/Hyundai_PorterII.png"){
+    vehicle(36, 0)
+}
+
+alternative_sprites(set_PorterII_HANJIN, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\Vehicle\Real_Vehicle\Korea\Hyundai\Hyundai_PorterII\Hyundai_PorterII_hanjin_32bpp.png"){
+    vehicle(36, 0)
+}
+
+/*--------------------------------------------------------------------
+5. 현대 포터 성화기업택배
+--------------------------------------------------------------------*/
+
+spriteset(set_PorterII_SUNGHWA, "src/Vehicle/Real_Vehicle/Korea/Hyundai/Hyundai_PorterII/Hyundai_PorterII.png"){
+    vehicle(36, 0)
+}
+
+alternative_sprites(set_PorterII_SUNGHWA, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\Vehicle\Real_Vehicle\Korea\Hyundai\Hyundai_PorterII\Hyundai_PorterII_sunghwa_32bpp.png"){
+    vehicle(36, 0)
+}
+
+/*--------------------------------------------------------------------
+6. 현대 포터 DHL
+--------------------------------------------------------------------*/
+
+spriteset(set_PorterII_DHL, "src/Vehicle/Real_Vehicle/Korea/Hyundai/Hyundai_PorterII/Hyundai_PorterII.png"){
+    vehicle(36, 0)
+}
+
+alternative_sprites(set_PorterII_DHL, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\Vehicle\Real_Vehicle\Korea\Hyundai\Hyundai_PorterII\Hyundai_PorterII_dhl_32bpp.png"){
+    vehicle(36, 0)
+}
+
+/*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_PorterII_purchase, cargo_subtype) {

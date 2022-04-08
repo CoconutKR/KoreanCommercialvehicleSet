@@ -71,7 +71,7 @@ item(FEAT_ROADVEHS, PorterII){
         default:                        set_PorterII;
         purchase:                       sw_PorterII_purchase;
         loading_speed:                  25;
-        cost_factor:                    10;
+        cost_factor:                    200;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_portertII_cargo_subtype_text;
         }
