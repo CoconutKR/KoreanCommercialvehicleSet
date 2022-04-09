@@ -10,7 +10,7 @@ CRH1
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_ROADVEHS, PorterII){
+item(FEAT_ROADVEHS, PorterII, 7001){
     property {
         name:                           string(STR_PorterII_NAME);
         climates_available:             ALL_CLIMATES;
