@@ -24,6 +24,7 @@ STR_REFIT_LIVERY_PorterII_YELLOWCAP                :(YELLOW CAP)
 STR_REFIT_LIVERY_PorterII_LOGEN                    :(LOGEN)
 STR_REFIT_LIVERY_PorterII_LOTTE                    :(Lotte Logistics)
 STR_REFIT_LIVERY_PorterII_ILYANG                   :(Ilyang Logistics)
+STR_REFIT_LIVERY_PorterII_FEDEX                    :(FEDEX)
 
 # Errors
 STR_ERROR_NO_ATTACH                                 :You can't attach this car here

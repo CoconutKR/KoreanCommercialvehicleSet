@@ -150,6 +150,18 @@ alternative_sprites(set_PorterII_ILYANG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "sr
 }
 
 /*--------------------------------------------------------------------
+12. 현대 포터 페덱스
+--------------------------------------------------------------------*/
+
+spriteset(set_PorterII_FEDEX, "src/Vehicle/Real_Vehicle/Korea/Hyundai/Hyundai_PorterII/Hyundai_PorterII.png"){
+    vehicle(36, 0)
+}
+
+alternative_sprites(set_PorterII_FEDEX, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\Vehicle\Real_Vehicle\Korea\Hyundai\Hyundai_PorterII\Hyundai_PorterII_fedex_32bpp.png"){
+    vehicle(36, 0)
+}
+
+/*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_PorterII_purchase, cargo_subtype) {
