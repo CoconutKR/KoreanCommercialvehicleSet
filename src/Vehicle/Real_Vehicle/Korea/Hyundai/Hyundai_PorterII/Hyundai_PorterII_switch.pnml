@@ -8,6 +8,11 @@ switch(FEAT_ROADVEHS, SELF, sw_portertII_cargo_subtype_text, cargo_subtype) {
     4: return string(STR_REFIT_LIVERY_PorterII_HANJIN);   // 포터II 한진택배
     5: return string(STR_REFIT_LIVERY_PorterII_SUNGHWA);   // 포터II 성화기업택배
     6: return string(STR_REFIT_LIVERY_PorterII_DHL);   // 포터II DHL
+    7: return string(STR_REFIT_LIVERY_PorterII_DAESIN);   // 포터II 대신택배
+    8: return string(STR_REFIT_LIVERY_PorterII_YELLOWCAP);   // 포터II 옐로우캡택배
+    9: return string(STR_REFIT_LIVERY_PorterII_LOGEN);   // 포터II 로젠택배
+    10: return string(STR_REFIT_LIVERY_PorterII_LOTTE);   // 포터II 롯데택배
+    11: return string(STR_REFIT_LIVERY_PorterII_ILYANG);   // 포터II 일양택배
     return string(STR_REFIT_LIVERY_PorterII_default);
 }
 
@@ -18,6 +23,11 @@ switch(FEAT_ROADVEHS, SELF, sw_portertII_MAIL, cargo_subtype) {
     4: set_PorterII_HANJIN;     // 포터II 한진택배
     5: set_PorterII_SUNGHWA;     // 포터II 성화기업택배
     6: set_PorterII_DHL;     // 포터II DHL
+    7: set_PorterII_DAESIN;     // 포터II 대신택배
+    8: set_PorterII_YELLOWCAP;     // 포터II 옐로우캡
+    9: set_PorterII_LOGEN;     // 포터II 로젠택배
+    10: set_PorterII_LOTTE;     // 포터II 롯데택배
+    11: set_PorterII_ILYANG;     // 포터II 일양로지스
     sg_PorterII_mail;
 }
 
@@ -28,6 +38,11 @@ switch(FEAT_ROADVEHS, SELF, sw_portertII_GOOD, cargo_subtype) {
     4: set_PorterII_HANJIN;     // 포터II 한진택배
     5: set_PorterII_SUNGHWA;     // 포터II 성화기업택배
     6: set_PorterII_DHL;     // 포터II DHL
+    7: set_PorterII_DAESIN;     // 포터II 대신택배
+    8: set_PorterII_YELLOWCAP;     // 포터II 옐로우캡
+    9: set_PorterII_LOGEN;     // 포터II 로젠택배
+    10: set_PorterII_LOTTE;     // 포터II 롯데택배
+    11: set_PorterII_ILYANG;     // 포터II 일양로지스
     sg_PorterII_mail;
 }
 

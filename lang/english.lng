@@ -14,11 +14,16 @@ STR_PorterII_NAME                                    :[KCS] Hyundai PorterII
 
 # Liveries
 STR_REFIT_LIVERY_PorterII_default                  :(PORTER II)
-STR_REFIT_LIVERY_PorterII_post                     :(PORTER II KOREA POST)
-STR_REFIT_LIVERY_PorterII_CJ                       :(PORTER II CJ LOGISTICS)
-STR_REFIT_LIVERY_PorterII_HANJIN                   :(PORTER II HANJIN LOGISTICS)
-STR_REFIT_LIVERY_PorterII_SUNGHWA                  :(PORTER II SUNGHWA LOGISTICS)
-STR_REFIT_LIVERY_PorterII_DHL                      :(PORTER II DHL)
+STR_REFIT_LIVERY_PorterII_post                     :(KOREA POST)
+STR_REFIT_LIVERY_PorterII_CJ                       :(CJ LOGISTICS)
+STR_REFIT_LIVERY_PorterII_HANJIN                   :(HANJIN LOGISTICS)
+STR_REFIT_LIVERY_PorterII_SUNGHWA                  :(SUNGHWA LOGISTICS)
+STR_REFIT_LIVERY_PorterII_DHL                      :(DHL)
+STR_REFIT_LIVERY_PorterII_DAESIN                   :(DAESIN LOGISTICS)
+STR_REFIT_LIVERY_PorterII_YELLOWCAP                :(YELLOW CAP)
+STR_REFIT_LIVERY_PorterII_LOGEN                    :(LOGEN)
+STR_REFIT_LIVERY_PorterII_LOTTE                    :(Lotte Logistics)
+STR_REFIT_LIVERY_PorterII_ILYANG                   :(Ilyang Logistics)
 
 # Errors
 STR_ERROR_NO_ATTACH                                 :You can't attach this car here

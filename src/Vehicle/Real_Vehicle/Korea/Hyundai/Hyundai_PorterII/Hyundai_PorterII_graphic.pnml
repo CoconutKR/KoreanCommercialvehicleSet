@@ -90,6 +90,66 @@ alternative_sprites(set_PorterII_DHL, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\V
 }
 
 /*--------------------------------------------------------------------
+7. 현대 포터 대신택배
+--------------------------------------------------------------------*/
+
+spriteset(set_PorterII_DAESIN, "src/Vehicle/Real_Vehicle/Korea/Hyundai/Hyundai_PorterII/Hyundai_PorterII.png"){
+    vehicle(36, 0)
+}
+
+alternative_sprites(set_PorterII_DAESIN, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\Vehicle\Real_Vehicle\Korea\Hyundai\Hyundai_PorterII\Hyundai_PorterII_daesin_32bpp.png"){
+    vehicle(36, 0)
+}
+
+/*--------------------------------------------------------------------
+8. 현대 포터 옐로우캡택배
+--------------------------------------------------------------------*/
+
+spriteset(set_PorterII_YELLOWCAP, "src/Vehicle/Real_Vehicle/Korea/Hyundai/Hyundai_PorterII/Hyundai_PorterII.png"){
+    vehicle(36, 0)
+}
+
+alternative_sprites(set_PorterII_YELLOWCAP, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\Vehicle\Real_Vehicle\Korea\Hyundai\Hyundai_PorterII\Hyundai_PorterII_yellowcap_32bpp.png"){
+    vehicle(36, 0)
+}
+
+/*--------------------------------------------------------------------
+9. 현대 포터 로젠택배
+--------------------------------------------------------------------*/
+
+spriteset(set_PorterII_LOGEN, "src/Vehicle/Real_Vehicle/Korea/Hyundai/Hyundai_PorterII/Hyundai_PorterII.png"){
+    vehicle(36, 0)
+}
+
+alternative_sprites(set_PorterII_LOGEN, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\Vehicle\Real_Vehicle\Korea\Hyundai\Hyundai_PorterII\Hyundai_PorterII_logen_32bpp.png"){
+    vehicle(36, 0)
+}
+
+/*--------------------------------------------------------------------
+10. 현대 포터 롯데택배
+--------------------------------------------------------------------*/
+
+spriteset(set_PorterII_LOTTE, "src/Vehicle/Real_Vehicle/Korea/Hyundai/Hyundai_PorterII/Hyundai_PorterII.png"){
+    vehicle(36, 0)
+}
+
+alternative_sprites(set_PorterII_LOTTE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\Vehicle\Real_Vehicle\Korea\Hyundai\Hyundai_PorterII\Hyundai_PorterII_lotte_32bpp.png"){
+    vehicle(36, 0)
+}
+
+/*--------------------------------------------------------------------
+11. 현대 포터 일양택배
+--------------------------------------------------------------------*/
+
+spriteset(set_PorterII_ILYANG, "src/Vehicle/Real_Vehicle/Korea/Hyundai/Hyundai_PorterII/Hyundai_PorterII.png"){
+    vehicle(36, 0)
+}
+
+alternative_sprites(set_PorterII_ILYANG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\Vehicle\Real_Vehicle\Korea\Hyundai\Hyundai_PorterII\Hyundai_PorterII_ilyang_32bpp.png"){
+    vehicle(36, 0)
+}
+
+/*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_PorterII_purchase, cargo_subtype) {
