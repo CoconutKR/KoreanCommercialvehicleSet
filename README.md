@@ -16,9 +16,6 @@
 
 베타 버전 : 베타 버전은 Pre-relesase이며, 코딩이 완료된 자료를 업로드합니다. 공식 릴리즈보다는 앞서 만나볼 수 있으며, 테스트의 목적와 선공개의 목적으로 공개됩니다. 플레이 목적으로 사용하시는것은 권장하지 않습니다.
 
-## 커뮤니티
-[![디스코드로고](https://github.com/evepoi/YST/blob/minengallery/docs/img/discord_logo.png)](https://discord.gg/WNrjUatFkz)
-
 ## 저작권
 이 NewGRF는 크리에이티브 커먼스 라이선스 v3.0 (CC-BY-NC-SA v3.0)을 따릅니다. <br>
 이 프로젝트에 기여함은 이 라이선스에 동의함을 의미합니다.
