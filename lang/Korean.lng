@@ -3,10 +3,18 @@
 # GRF name and description
 STR_GRF_NAME                                        :한국 상용차 세트
 STR_GRF_NAME_WITH_VER                               :한국 상용차 세트 {VERSION}
-STR_GRF_DESC                                        :(최근 업데이트: {RECENT_UPDATED}{}{}{SILVER} 코딩 : {}{ORANGE}경부라이너 {}{}{SILVER} 스프라이트 :{}{ORANGE} 경부라이너 {}포커페이스
+STR_GRF_DESC                                        :(최근 업데이트: {RECENT_UPDATED}{}{}{SILVER} 제작 : {}{ORANGE}CoconutKR
 
 # Road vehicle's name
 STR_PorterII_NAME                                    :[KCS] 현대 포터II
+STR_ExpressBus_NAME                                  :[KCS] 고속버스
+STR_IntercityBus_NAME                                :[KCS] 시외버스
+STR_MetropolitanBus_NAME                             :[KCS] 광역급행버스
+STR_DirectSeatBus_NAME                               :[KCS] 직행좌석버스
+STR_SeatBus_NAME                                     :[KCS] 일반좌석버스
+STR_CityBus_NAME                                     :[KCS] 시내버스
+STR_RuralBus_NAME                                    :[KCS] 농어촌버스
+STR_TownBus_NAME                                     :[KCS] 마을버스
 
 # Parameters
 
